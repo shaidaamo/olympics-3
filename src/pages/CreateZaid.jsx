@@ -16,7 +16,8 @@ function CreateZaid() {
 
 
   
-    async function handleSubmit(){
+    async function handleSubmit(event){
+      event.preventDefault()
       const createdZaid = await axios.post(`${import.meta.env.VITE_BACK_END_SERVER_URL}/zaids`,formData)
       navigate('/zaids')
     }
