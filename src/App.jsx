@@ -14,7 +14,7 @@ function App() {
         <Route path="/" element={<Homepage />} />
         <Route path="/zaids" element={<AllZaids />} />
         <Route path="/zaids/:zaidId" element={<ZaidDetails />} />
-        <Route to="/zaids/create" element={<CreateZaid />} />
+        <Route path="/zaids/create" element={<CreateZaid />} />
         <Route path="/zaids/:zaidId/edit" element={<UpdateZaid />} />
 
       </Routes>
