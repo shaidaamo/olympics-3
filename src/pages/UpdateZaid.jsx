@@ -56,7 +56,7 @@ function UpdateZaid() {
             onChange={handleChange}
             value={formData.zaidImage}
             />
-            <button>Create Zaid</button>
+            <button>Update Zaid</button>
           </form>
     </div>
   )
