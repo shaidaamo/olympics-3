@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState, useEffect} from 'react'
 import { Link } from 'react-router'
+import axios from 'axios'
 function AllZaids() {
     const [ zaids, setZaids ] = useState([])
 
