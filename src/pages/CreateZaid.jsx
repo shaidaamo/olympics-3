@@ -4,8 +4,8 @@ import { useNavigate } from 'react-router';
 
 function CreateZaid() {
     const [formData, setFormData] = useState({
-    Name:"",
-    ZaidImage: "",
+    name:"",
+    zaidImage: "",
   });
 
   
