@@ -29,7 +29,7 @@ function ZaidDetails() {
         {zaid ?  <> 
           <img className='zaid-img' src={zaid.zaidImage} alt={zaid.name}/>
             <h2>{zaid.name}</h2>
-            <button onClick={deleteZaid(zaidId)}>Delete Zaid</button>
+            <button onClick={deleteZaid}>Delete Zaid</button>
             <Link to={`/zaids/${zaidId}/edit`}>Edit Zaid</Link>
           </> :null}
   
