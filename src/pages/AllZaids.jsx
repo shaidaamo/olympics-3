@@ -17,10 +17,10 @@ function AllZaids() {
     <div>
         <h1>All Zaids</h1>
         {zaids.map((oneZaid)=>
-        {<Link key={oneZaid._id} to={'/zaids/${oneZaid._id}'}>
+        <Link key={oneZaid._id} to={'/zaids/${oneZaid._id}'}>
             <h2>{oneZaid.name}</h2>
             <img className='zaid-img' src={oneZaid.zaidImage} alt={oneZaid.name} />
-        </Link>}
+        </Link>
     )}
     </div>
   )
